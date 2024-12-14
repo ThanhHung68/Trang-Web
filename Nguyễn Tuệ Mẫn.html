@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Tuệ Mẫn</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+        }
+
+        .text-container {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .image-container {
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .image-container img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Trang web của Tuệ Mẫn</h1>
+        <h2>Thông tin cá nhân</h2>
+    </div>
+
+    <div class="content">
+        <div class="text-container">
+            <ol start="1">
+                <li>Họ và tên: Nguyễn Tuệ Mẫn</li>
+                <li>Ngày, tháng, năm sinh: 10/11/2007</li>
+                <li>Quốc tịch: Việt Nam</li>
+                <li>Quê quán: Nam Định</li>
+                <li>Địa chỉ: phường Trảng Dài, Biên Hòa, Đồng Nai</li>
+                <li>Tình trạng học vấn: Lớp 12A2, trường THPT Ngô Quyền</li>
+            </ol>
+        </div>
+
+        <div class="image-container">
+            <img src="d5fe98c35a55e30bba44.jpg" alt="Ảnh Tuệ Mẫn" width="200" height="250">
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">Sở thích</h2>
+    <ol style="margin: 0 20px;">
+        <li>Nghe nhạc</li>
+        <p>Đây là bài yêu thích của mình 
+            <video src="MẸ YÊU CON - Nhà TINH HOA (Tiết Mục Nhóm) CHUNG KẾT - ANH TRAI VƯỢT NGÀN CHÔNG GAI 2024.mp4" width="150" height="75" controls></video>
+        </p>
+        <li>Vẽ</li>
+        <li>Coi phim</li>
+        <li>Ngủ</li>
+        <li>Đi chơi, đi ăn jolibee</li>
+    </ol>
+</body>
+</html>
